@@ -1,0 +1,17 @@
+
+.container-paypal{
+   margin-left: 25%;
+    margin-top: 70px;
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+@media screen and (max-width: 685px) {
+
+    .contenedor-checkout{
+        margin-top: 0px;
+    }
+}   

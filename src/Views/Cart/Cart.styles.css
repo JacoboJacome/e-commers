@@ -1,0 +1,17 @@
+.contenedor-cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 0;
+    margin: auto;
+ 
+}
+
+@media screen and (max-width: 685px) {
+
+    .contenedor-cart{
+        margin-top: 0px;
+    }
+}

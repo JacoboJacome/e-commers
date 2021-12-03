@@ -1,0 +1,10 @@
+.contenedor-home{
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 685px) {
+
+    .contenedor-home{
+        margin-top: 0px;
+    }
+}

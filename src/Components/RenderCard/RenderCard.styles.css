@@ -1,0 +1,130 @@
+.container-slider{
+    -webkit-box-shadow: 3px -2px 10px 5px #918e8e; 
+    box-shadow: 3px -2px 10px 5px #BABABA;
+    width: 280px;
+    height: 450px;
+    margin: 2rem;
+    position: relative;
+    border-radius: .5rem;
+}
+
+.container-slider > .slides{
+    width: 100%;
+    height: 50%;
+    display: block;
+    overflow: hidden;
+    border-radius: .5rem .5rem 0 0;
+    box-shadow: 0px 4px 28px -5px rgba(102,96,96,0.75);
+    -webkit-box-shadow: 0px 4px 28px -5px rgba(102,96,96,0.75);
+    -moz-box-shadow: 0px 4px 28px -5px rgba(102,96,96,0.75);
+}
+
+.container-slider > .slides > .slide{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.slide>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.one{
+    display: none;
+}
+
+.two{
+    display: none;
+}
+
+.three{
+    display: none;
+}
+
+.navigation-container{
+    position: absolute;
+    top: 12.5rem;
+    left: 40%;
+}
+
+.navigation-container > button{
+    border: 2px solid #fff;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.2rem;
+    border-radius: 50%;
+}
+
+.navigation-container > button:hover{
+    background-color: #57a7a8;
+    border: none;
+}
+
+
+
+.container-text{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff ;
+}
+
+.container-text>h3:first-child{
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+    color: #409194;
+    
+}
+
+.container-text>p{
+    font-size: 1.1rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text > .seeMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+   
+}
+
+.container-text>button{
+    width: 100%;
+    background-color: #409194;
+    color: whitesmoke;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+.container-text>button:hover{
+    background-color: #38bec0;
+    font-weight: bolder;
+}
+
+.container-text>.price{
+    width: 100%;
+    font-size: 1rem;
+    padding-bottom: 5px;
+    color: #116530;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description{
+    color: grey;
+    padding: 0 5px;
+    font-weight: 500;
+}

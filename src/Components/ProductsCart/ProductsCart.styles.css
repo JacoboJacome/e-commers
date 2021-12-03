@@ -1,0 +1,133 @@
+
+
+.productoss{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px 5px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.459)), url(../../Assets/Logo.jpg);
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+
+}
+
+.products-cart{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.products-cart>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.products-cart>.product-name{
+    width: 20%;
+    text-align: center;
+}
+
+.container-btn{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hidden{
+    display: none;
+}
+
+.facturacion{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.facturacion>h2{
+    border-top: 2px solid white;
+    width: 90%;
+    padding-top: 10px;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.rotate:hover{
+
+    animation: spin .5s ease-in;
+}
+
+.img-whats{
+    width: 50px;
+}
+
+.datos>h4{
+    color: white;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
+  
+@media screen and (max-width: 700px) {
+    .productoss{
+        width: 90%;
+    }
+
+    .products-cart{
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+       border-bottom: 2px solid white;
+       padding-bottom: 10px;
+        
+    }
+
+    .products-cart>.product-name{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-btn{
+        width: 80%;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    .facturacion>h2{
+        border-top: none;
+        width: 90%;
+        padding-top: 10px;
+    }
+}

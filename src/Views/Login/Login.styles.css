@@ -1,0 +1,185 @@
+
+
+.container-log{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+.img-container{
+    width: 50%;
+    background-color: pink;
+}
+
+.img-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+
+
+
+
+.contenedor-login{
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(240, 234, 234);
+    padding-top: 60px;
+   
+}
+
+
+
+.log-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+
+
+}
+
+.log-in > input{
+  
+    margin: 0.5rem;
+    width: 400px;
+    padding: 5px;
+    border-radius: 2px;
+    color: #409194;
+
+}
+
+.log-in > input::placeholder{
+    color: #409194;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+}
+.log-in > input:focus{
+    color: #409194;
+    outline: none;
+}
+
+.log-in>button{
+    border: 1px solid #409194;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #409194;
+    width: 400px;
+    font-style: 1rem;
+}
+
+.log-in>button:hover{
+    color: #409194;
+    background-color: #fff;
+}
+
+.container-gmail{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container-gmail > button{
+    background-color: #409194;
+    width: 400px;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    font-style: 1rem;
+}
+
+
+.container-gmail > button > i{
+    color: #fff;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 3px;
+    margin-left: -120px;
+
+}
+
+
+.container-gmail > button > .fa-sign-out-alt{
+    color: #DB4437;
+    margin-right: 0;
+
+}
+
+.contenedor-login > a{
+    margin-top: 1rem;
+    font-style: italic;
+    background-color: #df998d;
+    color: white;
+    padding: 0.4rem .6rem;
+    border-radius: 5px;
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-login > a:hover{
+    background-color: white;
+    color: #df998d;
+    border: 1px solid #df998d;
+}
+
+@media screen and (max-width: 650px){
+
+    .container-log{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .img-container{
+        width: 100%;
+    }
+
+    .contenedor-login{
+        width: 100%;
+        padding-bottom: 50px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .img-container>img{
+        border-radius: 5px 5px 0 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 870px) {
+
+    .contenedor-login{
+        margin-top: 0px;
+    }
+
+    .log-in > input{
+        width: 250px;
+    }
+    .log-in>button{
+        width: 250px;
+    }
+    .container-gmail > button{
+        width: 250px;
+    }
+    .container-gmail > button > i{
+        margin-left: 0;
+    }
+    .contenedor-login > a{
+        width: 250px;
+    }
+}

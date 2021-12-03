@@ -1,0 +1,54 @@
+/* .Checkout{
+    height: 90vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 5px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://img.grouponcdn.com/iam/NG2PuHCH332Ax1sL19w4GDDyvyE/NG-1500x900/v1/c870x524.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.Checkout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Checkout2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Checkout > button{
+   
+    background-color: #409194;
+    padding: .5rem 1rem;
+    border-radius: 0.6rem;
+    align-items: center;
+    color: white;
+}
+
+.Checkout > button:hover{
+    background-color: #38bec0;
+}
+
+.paypal-container{
+    border: 1px solid black;
+    width: 100%;
+    padding: 15px 5px;
+    border-radius: 10px;
+ 
+    
+ 
+}
+
+@media screen and (max-width: 700px) {
+   
+}

@@ -1,0 +1,67 @@
+.container-register{
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 6rem;
+    
+    
+}
+
+.container-register>h2{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #409194;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(161, 156, 156);
+}
+.sign-up{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-up > input{
+    margin: 0.5rem;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    color: #409194;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px grey;
+}
+.sign-up > input::placeholder{
+    color: #409194;
+}
+
+.sign-up > input:focus{
+    outline: none;
+}
+
+.sign-up > button{
+    background-color: #409194;
+    padding: 0.6rem;
+    border-radius: 5px;
+    margin-top: 0.7rem;
+    color: #fff;
+}
+.sign-up > button:hover{
+    background-color: #fff;
+    color: #409194;
+    border: 1px solid #409194;
+}
+
+@media screen and (max-width: 650px) {  
+
+    .container-register>h2{
+        width: 90%;
+    }
+
+    .container-register{
+        width: 80%;
+    }
+    
+}
